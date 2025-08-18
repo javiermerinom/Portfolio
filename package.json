@@ -1,7 +1,7 @@
 {
-  "name": "manraj-singh-portfolio",
+  "name": "javier-merino-portfolio",
   "version": "0.1.0",
-  "homepage": "https://therealmanraj.github.io",
+  "homepage": "https://github.com/javiermerinom",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
