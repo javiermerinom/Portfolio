@@ -108,23 +108,6 @@ const Degree = styled.div`
     }
 `
 
-const Date = styled.div`
-    font-size: 12px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
-    @media only screen and (max-width: 768px){
-        font-size: 10px;
-    }
-`
-
-const Grade = styled.div`
-    font-size: 14px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text_secondary + 99};
-    @media only screen and (max-width: 768px){
-        font-size: 12px;
-    }
-`
 
 
 
@@ -136,10 +119,8 @@ const EducationCard = ({ education }) => {
                 <Body>
                     <Name>{education.school}</Name>
                     <Degree>{education.degree}</Degree>
-                    {/* <Date>{education.date}</Date> */}
                 </Body>
             </Top>
-            {/* <Grade><b>Grade: </b>{education.grade}</Grade> */}
             <Description>
                 <Span>{education.desc}</Span>
             </Description>
