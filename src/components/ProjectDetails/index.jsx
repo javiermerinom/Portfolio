@@ -1,4 +1,4 @@
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+import { CloseRounded } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import styled from 'styled-components'
 
@@ -91,16 +91,6 @@ const Tag = styled.div`
     background-color: ${({ theme }) => theme.primary + 20};
     @media only screen and (max-width: 600px) {
         font-size: 12px;
-    }
-`;
-
-const MemberName = styled.div`
-    font-size: 16px;
-    font-weight: 500;
-    width: 200px;
-    color: ${({ theme }) => theme.text_primary};
-    @media only screen and (max-width: 600px) {
-        font-size: 14px;
     }
 `;
 
