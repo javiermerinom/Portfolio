@@ -31,8 +31,8 @@ export const Bio = {
   github: "https://github.com/therealmanraj",
   resume:
     "https://drive.google.com/file/d/1rt42ZLWdk1crN8d9oINuAVvdtrLNZ1f_/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/therealmanraj/",
-  twitter: "https://twitter.com/imtherealmanraj",
+  linkedin: "https://www.linkedin.com/in/jmerinom/",
+  twitter: "https://x.com/javxmm",
 };
 
 export const skills = [

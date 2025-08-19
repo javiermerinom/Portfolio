@@ -85,7 +85,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Manraj Singh</Logo>
+        <Logo>Javier Merino</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -102,7 +102,7 @@ function Footer() {
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2025 Manraj Singh. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 Javier Merino. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
