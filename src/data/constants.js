@@ -25,10 +25,18 @@ import teamSAA from "../images/teamSAA.jpeg";
 
 export const Bio = {
   name: "Javier Merino",
-  roles: ["Data Analyst", "Lover"],
+  roles: ["Data Analyst", "Problem Solver", "Explorer"],
   description:
-    "Welcome to my e-portfolio, and thank you for taking the time to look at my work. This space serves as a snapshot of my career journey, showcasing the technical skills I’ve honed, the projects I’ve delivered, and the professional experiences that have shaped my approach to problem-solving. Creating it has been a deeply personal endeavor, reflecting the hours I’ve spent learning, growing, and refining my craft. Each project here represents a piece of my story; a testament to my passion for turning challenges into opportunities. If my skills journey resonates with you, I invite you to explore further, connect with me, and consider how we might work together in the future. Thank you again for visiting, and I hope you find something here that sparks inspiration.",
-  github: "https://github.com/therealmanraj",
+    "Welcome to my e-portfolio! In this space, I share my data analyst career journey - showcasing \
+    the technical skills I’ve developed, the projects I’ve completed, and the \
+    experiences that have shaped my approach to problem-solving.\
+    Over the past 12 years, I have held diverse roles accross companies, government, \
+    and research institutions, successfully leading and contributing to challenging projects.\
+    On a personal level, I consider myself an explorer - always seeking new experiences and challenges. \
+    I enjoy traveling, gaming, and engaging in both individual and team sports.\
+    I invite you to explore my work, connect with me, and consider how we might collaborate in the future. \
+    Thank you for visiting, and I hope you find something here that inspires you.",
+  github: "https://github.com/javiermerinom",
   resume:
     "https://drive.google.com/file/d/1rt42ZLWdk1crN8d9oINuAVvdtrLNZ1f_/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jmerinom/",
@@ -37,47 +45,41 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Data Analysis",
+    title: "Analysis and Visualization",
     skills: [
       {
         name: "Python",
         image: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
       },
       {
-        name: "MySQL",
-        image: "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg",
+        name: "R",
+        image: "https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg",
       },
       {
         name: "Power BI",
         image:
-          "https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-icon.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
       },
       {
         name: "Tableau",
         image: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg",
       },
       {
-        name: "Microsoft Office",
-        image: "https://cdn.worldvectorlogo.com/logos/office-1.svg",
+        name: "Microsoft Excel",
+        image: "https://cdn.worldvectorlogo.com/logos/excel-4.svg",
       },
     ],
   },
   {
-    title: "Web Development",
+    title: "Database and Cloud",
     skills: [
       {
-        name: "React JS",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        name: "SQL",
+        image:"https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg",
       },
       {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Material UI",
-        image: "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
+        name: "PostgreSQL",
+        image:"https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
       },
       {
         name: "Node JS",
@@ -90,7 +92,7 @@ export const skills = [
     ],
   },
   {
-    title: "Tools",
+    title: "Other Tools",
     skills: [
       {
         name: "GitHub",
@@ -103,9 +105,8 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
-        name: "Canva",
-        image:
-          "https://yt3.googleusercontent.com/M7S2_gnnaJT5buAfWW4tanX9NELz5PddzNCQgnRV1oP8t12s5pg4cYKMChkEoh8gtGX__KtcYKU=s900-c-k-c0x00ffffff-no-rj",
+        name: "Microsoft Office",
+        image: "https://cdn.worldvectorlogo.com/logos/office-1.svg",
       },
     ],
   },
