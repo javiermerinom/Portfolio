@@ -24,6 +24,7 @@ import langaraLogo from "../images/LOGO_langara.png";
 import cntlogo from "../images/LOGO_cnt.png";
 import arcotellogo from "../images/LOGO_arcotel.jpg";
 import melbournelogo from "../images/LOGO_melbourne.png";
+import espelogo from "../images/LOGO_espe.jpg";
 
 export const Bio = {
   name: "Javier Merino",
@@ -206,10 +207,19 @@ export const education = [
     id: 1,
     img: melbournelogo,
     school: "University of Melbourne",
-    date: "July 2013 - August",
+    date: "July 2013 - August 2014",
     grade: "H2A Grade",
-    desc: "Data Analytics is an area containing the relevant tools that allow you to divide and conquer massive data sets so as to find the needle for the right fabric.",
+    desc: "Developed expertise in network design and optimization, optical and broadband networking, mobile and wireless systems, multimedia content delivery, and business aspects of telecommunications, gaining a strong foundation in managing technological enterprises and advanced telecommunications infrastructures.",
     degree: "Master of Telecommunications Engineering",
+  },
+    {
+    id: 2,
+    img: espelogo,
+    school: "Army Polytechnic School",
+    date: "October 2004 - March 2011",
+    grade: "17/20 Grade",
+    desc: "The program developed a strong foundation in mathematical modeling, digital signal processing, and telecommunications systems, combining theoretical rigor with practical applications.",
+    degree: "Bachelor of Science, Major Electrical Engineering and Telecommunications",
   },
 ];
 
