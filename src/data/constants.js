@@ -23,20 +23,13 @@ import canvaLogo from "../images/canva-icon.svg";
 import langaraLogo from "../images/LOGO_langara.png";
 import cntlogo from "../images/LOGO_cnt.png";
 import arcotellogo from "../images/LOGO_arcotel.jpg";
+import melbournelogo from "../images/LOGO_melbourne.png";
 
 export const Bio = {
   name: "Javier Merino",
   roles: ["Data Analyst", "Problem Solver", "Explorer"],
   description:
-    "Welcome to my e-portfolio! In this space, I share my data analyst career journey - showcasing \
-    the technical skills I’ve developed, the projects I’ve completed, and the \
-    experiences that have shaped my approach to problem-solving.\
-    Over the past 12 years, I have held diverse roles accross companies, government, \
-    and research institutions, successfully leading and contributing to challenging projects.\
-    On a personal level, I consider myself an explorer - always seeking new experiences and challenges. \
-    I enjoy traveling, gaming, and engaging in both individual and team sports.\
-    I invite you to explore my work, connect with me, and consider how we might collaborate in the future. \
-    Thank you for visiting, and I hope you find something here that inspires you.",
+    "Welcome to my e-portfolio! In this space, I share my data analyst career journey - showcasing the technical skills I’ve developed, the projects I’ve completed, and the experiences that have shaped my approach to problem-solving. Over the past 12 years, I have held diverse roles accross companies, government, and research institutions, successfully leading and contributing to challenging projects. On a personal level, I consider myself an explorer - always seeking new experiences and challenges. I enjoy traveling, gaming, and engaging in both individual and team sports. I invite you to explore my work, connect with me, and consider how we might collaborate in the future. Thank you for visiting, and I hope you find something here that inspires you.",
   github: "https://github.com/javiermerinom",
   resume:
     "https://drive.google.com/file/d/1rt42ZLWdk1crN8d9oINuAVvdtrLNZ1f_/view?usp=sharing",
@@ -152,10 +145,7 @@ export const experiences = [
     role: "Research Assistant, Data Warehouse Project",
     company: "Langara College Applied Research Centre - Vancouver, Canada",
     date: "January 2025 - August 2025",
-    desc: "Developed and maintained Python-based ETL applications\
-     to automate data extraction and transformation in a Chemistry Lab, reducing processing \
-     time and ensuring accurate, reusable outputs aligned with evolving project needs through \
-     version control and updates.",
+    desc: "Developed and maintained Python-based ETL applications to automate data extraction and transformation in a Chemistry Lab, reducing processing time and ensuring accurate, reusable outputs aligned with evolving project needs through version control and updates.",
     skills: [
       "Python",
       "Github",
@@ -170,10 +160,8 @@ export const experiences = [
     img: cntlogo,
     role: "Business Analyst I, International Relations",
     company: "CNT, Telecommunications Service Provider - Quito, Ecuador",
-    date: "Feb 2018 - Feb 2024",
-    desc: "Managed international rate strategies and capacity portfolios through data analysis, \
-    achieving revenue targets and delivering Power BI dashboards that provided insights on cost \
-    efficiency, utilization, and supported contract acquisitions.",
+    date: "February 2018 - February 2024",
+    desc: "Managed international rate strategies and capacity portfolios through data analysis, achieving revenue targets and delivering Power BI dashboards that provided insights on cost efficiency, utilization, and supported contract acquisitions.",
     skills: [
       "Data Analysis",
       "Power BI",
@@ -189,11 +177,8 @@ export const experiences = [
     img: arcotellogo,
     role: "Business Analyst II, Statistic and Market Analysis",
     company: "ARCOTEL, Telecomunications Regulatory Authority - Quito, Ecuador",
-    date: "Oct 2014 - Feb 2018",
-    desc: "Defined KPIs and developed revenue forecasting models to support policy studies and \
-    evaluate market impacts. Designed and delivered interactive Power BI dashboards consolidating \
-    mobile network, and market data, enabling data-driven decisions for wholesale rate evaluations \
-    and strategic planning.",
+    date: "October 2014 - February 2018",
+    desc: "Defined KPIs and developed revenue forecasting models to support policy studies and evaluate market impacts. Designed and delivered interactive Power BI dashboards consolidating mobile network, and market data, enabling data-driven decisions for wholesale rate evaluations and strategic planning.",
     skills: ["Data Analysis", "R", "Excel", "Power Bi", "Forecasting", "Communication", "Leadership"],
   },
   {
@@ -202,11 +187,7 @@ export const experiences = [
     role: "Busines Analyst I",
     company: "ARCOTEL, Telecomunications Regulatory Authority - Quito, Ecuador",
     date: "April 2011 - July 2013",
-    desc: "Represented Ecuador in international forums to support the harmonization of \
-    the ISDB-T digital TV standard and contributed to drafting technical \
-    specifications. Assisted in managing the technical group leading \
-    the transition from analog to digital TV, supporting deployment and license \
-    approvals.",
+    desc: "Represented Ecuador in international forums to support the harmonization of the ISDB-T digital TV standard and contributed to drafting technical specifications. Assisted in managing the technical group leading the transition from analog to digital TV, supporting deployment and license approvals.",
     skills: ["Project Management", "Communication", "Leadership"],
   },
 ];
@@ -218,19 +199,17 @@ export const education = [
     school: "Langara College",
     date: "May 2024 - August 2025",
     grade: "3.92 GPA",
-    desc: "The program contributed with extend knowledge in statistics, \
-    machine learning algorithms for regression, classification, and clustering\
-    such as linear regression, logistic regression, random forrest, xgboost, KNN and deep learning.",
+    desc: "Gained hands-on experience in statistics, machine learning (regression, classification, clustering), and data pipeline development. Delivered a capstone project on park occupancy analysis for the Vancouver City Park Board and earned Dean’s Honour Roll recognition twice for academic excellence.",
     degree: "Post Graduate Diploma in Data Analytics",
   },
     {
     id: 1,
-    img: "https://ogsl.ca/commons/projet/ckan/logo/langara.png",
-    school: "Langara College",
-    date: "May 2024 - Present",
-    grade: "3.83 GPA",
+    img: melbournelogo,
+    school: "University of Melbourne",
+    date: "July 2013 - August",
+    grade: "H2A Grade",
     desc: "Data Analytics is an area containing the relevant tools that allow you to divide and conquer massive data sets so as to find the needle for the right fabric.",
-    degree: "Post Graduate Diploma in Data Analysis",
+    degree: "Master of Telecommunications Engineering",
   },
 ];
 
