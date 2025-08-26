@@ -160,7 +160,7 @@ export const experiences = [
       "Python",
       "Github",
       "Excel",
-      "ETL",
+      "Data Wrangling",
       "Data Warehousing",
       "Cross-functional collaboration",
     ],
