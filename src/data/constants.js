@@ -1,7 +1,3 @@
-import ARC_LOGO from "../images/ARC_LOGO.png";
-import AMD_LOGO from "../images/AMD_LOGO.webp";
-import PECS_LOGO from "../images/PECS_LOGO.webp";
-import INTERNSHALA_LOGO from "../images/INTERNSHALA_LOGO.webp";
 import coffeeSales from "../images/coffeeSales.png";
 import breakingBarriers from "../images/breakingBarriers.jpg";
 import covidApp from "../images/covidApp.jpeg";
@@ -22,6 +18,11 @@ import snowboarding_1 from "../images/Snowboarding1.JPG";
 import snowboarding_2 from "../images/Snowboarding2.JPG";
 import snowboarding_3 from "../images/Snowboarding3.JPG";
 import teamSAA from "../images/teamSAA.jpeg";
+import fabricLogo from "../images/fabric_48_color.svg";
+import canvaLogo from "../images/canva-icon.svg";
+import langaraLogo from "../images/LOGO_langara.png";
+import cntlogo from "../images/LOGO_cnt.png";
+import arcotellogo from "../images/LOGO_arcotel.jpg";
 
 export const Bio = {
   name: "Javier Merino",
@@ -82,13 +83,10 @@ export const skills = [
         image:"https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
       },
       {
-        name: "Node JS",
-        image: "https://nodejs.org/static/images/logo.svg",
+        name: "Fabric",
+        image: fabricLogo,
       },
-      {
-        name: "Express JS",
-        image: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
-      },
+
     ],
   },
   {
@@ -107,6 +105,14 @@ export const skills = [
       {
         name: "Microsoft Office",
         image: "https://cdn.worldvectorlogo.com/logos/office-1.svg",
+      },
+      {
+        name: "Canva",
+        image: canvaLogo,
+      },
+      {
+        name: "Sharepoint",
+        image: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Microsoft_Office_SharePoint_%282019%E2%80%93present%29.svg",
       },
     ],
   },
@@ -127,7 +133,7 @@ export const skills = [
         image: "https://cdn-icons-png.flaticon.com/512/7086/7086327.png",
       },
       {
-        name: "Problem-Solving",
+        name: "Analytical-Thinking",
         image:
           "https://cdn-icons-png.freepik.com/256/8553/8553558.png?semt=ais_hybrid",
       },
@@ -142,61 +148,83 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: ARC_LOGO,
+    img: langaraLogo,
     role: "Research Assistant",
-    company: "Applied Research Centre",
-    date: "September 2024 - Current",
-    desc: "Optimized data pipelines to predict HVAC usage and maintenance needs, achieving a 9% reduction in energy consumption. Engineered sustainable solutions for campus projects, boosting efficiency by 15%.",
+    company: "Langara College Applied Research Centre - Vancouver, Canada",
+    date: "January 2025 - August 2025",
+    desc: "Data Warehouse Project: “Developed and maintained Python-based ETL applications\
+     to automate data extraction and transformation in a Chemistry Lab, reducing processing \
+     time and ensuring accurate, reusable outputs aligned with evolving project needs through \
+     version control and updates.",
     skills: [
       "Python",
-      "SQL",
-      "React JS",
-      "Node JS",
-      "Poster Making",
-      "Reporting",
-      "Data Analysis",
+      "Github",
+      "Excel",
+      "ETL",
+      "Data Warehousing",
+      "Cross-functional collaboration",
     ],
   },
   {
     id: 1,
-    img: AMD_LOGO,
-    role: "Data Analyst Co-Op",
-    company: "AMD",
-    date: "June 2022 - June 2023",
-    desc: "Developed interactive dashboards to streamline cross-team collaboration, cutting manual reporting by 15 hours/week. Integrated advanced analytics in Power BI to provide real-time insights for executive decisions.",
+    img: cntlogo,
+    role: "Business Analyst I",
+    company: "CNT, Telecommunications Service Provider - Quito, Ecuador",
+    date: "Feb 2018 - Feb 2024",
+    desc: "Managed international rate strategies and capacity portfolios through data analysis, \
+    achieving revenue targets and delivering Power BI dashboards that provided insights on cost \
+    efficiency, utilization, and supported contract acquisitions.",
     skills: [
-      "Python",
-      "SQL",
-      "React JS",
-      "Node JS",
+      "Data Analysis",
       "Power BI",
-      "Microsoft Excel",
-      "Flask",
+      "Excel",
+      "Communication",
+      "Negotiation",
+      "Project Management",
+      "Cross functional management",
     ],
   },
   {
     id: 2,
-    img: PECS_LOGO,
-    role: "AI Project Intern",
-    company: "PECS",
-    date: "May 2022 - July 2022",
-    desc: "Built UI/UX of the website with a metaverse theme. Was also tasked with cleaning the existing university data.",
-    skills: ["Figma", "SQL", "Python"],
+    img: arcotellogo,
+    role: "Business Analyst II",
+    company: "ARCOTEL, Telecomunications Regulatory Authority - Quito, Ecuador",
+    date: "Oct 2014 - Feb 2018",
+    desc: "Defined KPIs and developed revenue forecasting models to support policy studies and \
+    evaluate market impacts. Designed and delivered interactive Power BI dashboards consolidating \
+    mobile network, and market data, enabling data-driven decisions for wholesale rate evaluations \
+    and strategic planning.",
+    skills: ["Data Analysis", "R", "Excel", "Power Bi", "Forecasting", "Communication", "Leadership"],
   },
   {
     id: 3,
-    img: INTERNSHALA_LOGO,
-    role: "Internshala Student Partner 27",
-    company: "Internshala",
-    date: "Febuary 2022 - April 2022",
-    desc: "Promoted the Internshala brand, products, and services among my peers, and hosted activities like online seminars and built relationships with students and faculty.",
-    skills: ["Marketing", "Commpuncation", "Presentation", "Leadership"],
+    img: arcotellogo,
+    role: "Busines Analyst I",
+    company: "ARCOTEL, Telecomunications Regulatory Authority - Quito, Ecuador",
+    date: "April 2011 - July 2013",
+    desc: "Represented Ecuador in international forums to support the harmonization of \
+    the ISDB-T digital TV standard and contributed to drafting technical \
+    specifications. Assisted in managing the technical group leading \
+    the transition from analog to digital TV, supporting deployment and license \
+    approvals.",
+    skills: ["Project Management", "Communication", "Leadership"],
   },
 ];
 
 export const education = [
   {
     id: 0,
+    img: langaraLogo,
+    school: "Langara College",
+    date: "May 2024 - August 2025",
+    grade: "3.92 GPA",
+    desc: "The program contributed with extend knowledge in statistics, \
+    machine learning algorithms for regression, classification, and clustering\
+    such as linear regression, logistic regression, random forrest, xgboost, KNN and deep learning.",
+    degree: "Post Graduate Diploma in Data Analytics",
+  },
+    {
+    id: 1,
     img: "https://ogsl.ca/commons/projet/ckan/logo/langara.png",
     school: "Langara College",
     date: "May 2024 - Present",
