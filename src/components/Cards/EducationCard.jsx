@@ -15,7 +15,7 @@ const Document = styled.img`
 
 const Description = styled.div`
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
@@ -29,7 +29,7 @@ overflow: hidden;
 display: -webkit-box;
 max-width: 100%;
 -webkit-line-clamp: 4;
-// -webkit-box-orient: vertical;
+-webkit-box-orient: vertical;
 text-overflow: ellipsis;
 `
 
@@ -64,7 +64,8 @@ const Card = styled.div`
         -webkit-line-clamp: unset;
 
     }
-    border: 0.1px solid #854CE6;
+    border: 0.1px solid #306EE8;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px
 `
 
 const Top = styled.div`
@@ -88,9 +89,7 @@ const Body = styled.div`
     display: flex;
     flex-direction: column; 
 `
-
-
-const Name = styled.div`
+const Degree = styled.div`
     font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -99,12 +98,21 @@ const Name = styled.div`
     }
 `
 
-const Degree = styled.div`
+const Name = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px){
         font-size: 12px;
+    }
+`
+
+const Date = styled.div`
+    font-size: 12px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_secondary + 80};
+    @media only screen and (max-width: 768px){
+        font-size: 10px;
     }
 `
 
@@ -117,8 +125,9 @@ const EducationCard = ({ education }) => {
             <Top>
                 <Image src={education.img} />
                 <Body>
-                    <Name>{education.school}</Name>
                     <Degree>{education.degree}</Degree>
+                    <Name>{education.school}</Name>
+                    <Date>{education.date} | {education.grade}</Date>
                 </Body>
             </Top>
             <Description>

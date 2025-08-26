@@ -149,10 +149,10 @@ export const experiences = [
   {
     id: 0,
     img: langaraLogo,
-    role: "Research Assistant",
+    role: "Research Assistant, Data Warehouse Project",
     company: "Langara College Applied Research Centre - Vancouver, Canada",
     date: "January 2025 - August 2025",
-    desc: "Data Warehouse Project: “Developed and maintained Python-based ETL applications\
+    desc: "Developed and maintained Python-based ETL applications\
      to automate data extraction and transformation in a Chemistry Lab, reducing processing \
      time and ensuring accurate, reusable outputs aligned with evolving project needs through \
      version control and updates.",
@@ -168,7 +168,7 @@ export const experiences = [
   {
     id: 1,
     img: cntlogo,
-    role: "Business Analyst I",
+    role: "Business Analyst I, International Relations",
     company: "CNT, Telecommunications Service Provider - Quito, Ecuador",
     date: "Feb 2018 - Feb 2024",
     desc: "Managed international rate strategies and capacity portfolios through data analysis, \
@@ -187,7 +187,7 @@ export const experiences = [
   {
     id: 2,
     img: arcotellogo,
-    role: "Business Analyst II",
+    role: "Business Analyst II, Statistic and Market Analysis",
     company: "ARCOTEL, Telecomunications Regulatory Authority - Quito, Ecuador",
     date: "Oct 2014 - Feb 2018",
     desc: "Defined KPIs and developed revenue forecasting models to support policy studies and \

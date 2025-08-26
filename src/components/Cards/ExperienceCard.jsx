@@ -15,7 +15,7 @@ const Document = styled.img`
 
 const Description = styled.div`
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
@@ -130,11 +130,12 @@ const Skills = styled.div`
 const ItemWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    column-gap: 8px;
+    row-gap: 2px;
 `
 
 const Skill = styled.div`
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px){
