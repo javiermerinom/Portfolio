@@ -31,12 +31,12 @@ function App() {
           <HeroSection />
           <div className="Wrapper">
             <Skills />
+            <Education />
             <Experience />
           </div>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <div>
             <Pictures />
-            <Education />
           </div>
           <Footer />
           {openModal.state && (
