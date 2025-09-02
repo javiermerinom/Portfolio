@@ -155,10 +155,7 @@ const Index = () => {
       <Wrapper>
         <Title>Moments & Media</Title>
         <Desc>
-          Life is a tapestry of moments, and these photos and videos are some of
-          my most cherished threads. Dive in to see the places I’ve explored,
-          the music I’ve created, and the incredible people I’ve met along the
-          way.
+          This section captures milestones that shaped me both personally and professionally. From teamwork and academic achievements to experiences that challenged my perspective, these moments reflect the growth, pride, and mindset I carry into solving problems and creating impact.
         </Desc>
 
         <CardContainer>

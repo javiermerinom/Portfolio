@@ -46,7 +46,7 @@ export const Title = styled.div`
 `;
 
 export const Desc = styled.div`
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   max-width: 600px;
   color: ${({ theme }) => theme.text_secondary};

@@ -20,8 +20,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          A collection of research and applied projects showcasing skills in predictive modeling, clustering, classification, ETL pipelines, and interactive dashboards. Developed through my Post-Degree Diploma in Data Analytics at Langara College and professional experience, each project highlights turning real-world data into actionable insights.
         </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
