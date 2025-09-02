@@ -3,7 +3,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ---
 
-## Weblink: [Live Website](https://https://javiermerino.netlify.app/)
+## Weblink: [Live Website](https://javiermerino.netlify.app/)
 
 ---
 
