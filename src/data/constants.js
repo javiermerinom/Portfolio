@@ -29,7 +29,7 @@ export const Bio = {
     "Welcome to my e-portfolio! In this space, I share my data analyst career journey - showcasing the technical skills I’ve developed, the projects I’ve completed, and the experiences that have shaped my approach to problem-solving. Over the past 12 years, I have held diverse roles accross companies, government, and research institutions, successfully leading and contributing to challenging projects. On a personal level, I consider myself an explorer - always seeking new experiences and challenges. I enjoy traveling, gaming, and engaging in both individual and team sports. I invite you to explore my work, connect with me, and consider how we might collaborate in the future. Thank you for visiting, and I hope you find something here that inspires you.",
   github: "https://github.com/javiermerinom",
   resume:
-    "https://drive.google.com/file/d/1rt42ZLWdk1crN8d9oINuAVvdtrLNZ1f_/view?usp=sharing",
+    "https://drive.google.com/file/d/1Ngghk_37AzYCy_2qwN_5Zxo3KztSovda/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jmerinom/",
   twitter: "https://x.com/javxmm",
 };
