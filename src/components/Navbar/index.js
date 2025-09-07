@@ -61,6 +61,14 @@ const Navbar = () => {
               Skills
             </MobileLink>
             <MobileLink
+              href="#education"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Education
+            </MobileLink>
+            <MobileLink
               href="#experience"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -83,14 +91,6 @@ const Navbar = () => {
               }}
             >
               Moments & Media
-            </MobileLink>
-            <MobileLink
-              href="#education"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Education
             </MobileLink>
             <GitHubButton
               style={{
