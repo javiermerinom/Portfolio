@@ -80,23 +80,23 @@ const Projects = ({ openModal, setOpenModal }) => {
               DATA ENGINEERING
             </ToggleButton>
           )}
-          {/* <Divider />
-          {toggle === "research paper" ? (
+          <Divider />
+          {toggle === "end to end" ? (
             <ToggleButton
               active
-              value="research paper"
-              onClick={() => setToggle("research paper")}
+              value="end to end"
+              onClick={() => setToggle("end to end")}
             >
-              RESEARCH PAPER
+              END TO END
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="research paper"
-              onClick={() => setToggle("research paper")}
+              value="end to end"
+              onClick={() => setToggle("end to end")}
             >
-              RESEARCH PAPER
+              END TO END
             </ToggleButton>
-          )} */}
+          )}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&

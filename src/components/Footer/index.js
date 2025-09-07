@@ -1,7 +1,18 @@
 import styled from "styled-components";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import SvgIcon from "@mui/material/SvgIcon";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { Bio } from "../../data/constants";
+
+
+function XIcon(props) {
+  return (
+    <SvgIcon {...props}>
+      <path d="M18 2L11.5 10.5 18 22h-3l-5.5-8L4 22H1l7-11L1 2h3l6.5 8L17 2h1z" />
+    </SvgIcon>
+  );
+}
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -96,10 +107,16 @@ function Footer() {
           </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
+            <XIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.facebook} target="display">
+            <FacebookIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.instagram} target="display">
+            <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2025 Javier Merino. All rights reserved.</Copyright>

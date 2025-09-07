@@ -32,6 +32,8 @@ export const Bio = {
     "https://drive.google.com/file/d/1Ngghk_37AzYCy_2qwN_5Zxo3KztSovda/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jmerinom/",
   twitter: "https://x.com/javxmm",
+  facebook: "https://www.facebook.com/javier.merino.7967",
+  instagram: "https://www.instagram.com/javxmm/",
 };
 
 export const skills = [
