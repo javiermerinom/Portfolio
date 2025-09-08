@@ -21,6 +21,8 @@ import cayambe3 from "../images/PICTURES_cayambe3.jpeg";
 import cayambe4 from "../images/PICTURES_cayambe4.jpeg";
 import master1 from "../images/PICTURES_masters1.jpg";
 import master2 from "../images/PICTURES_masters2.jpg";
+import park from "../images/PROJECT_park.png";
+import gene from "../images/PROJECT_gene.webp";
 
 export const Bio = {
   name: "Javier Merino",
@@ -265,28 +267,28 @@ export const projects = [
     category: "data science",
     github: "https://github.com/javiermerinom/granify-classification-analysis",
   },
-  // {
-  //   id: 4,
-  //   title: "Breaking Barriers: Predicting Student Success",
-  //   description:
-  //     "Inspired by students, I studied how factors like gender, ethnicity, and parental education affect exam scores. Built CI/CD ML pipeline to clean data, engineer features, and train models for predicting student scores. Deployed the model using Azure with an R² score of 0.8522, explaining 85.22% variance in predictions.",
-  //   image: breakingBarriers,
-  //   tags: ["Python", "Data Visualization", "ML Pipeline"],
-  //   category: "data science",
-  //   github:
-  //     "https://github.com/therealmanraj/students-Performance-ML-E2E-Project",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Medallion Architecture Azure Pipeline",
-  //   description:
-  //     "Developed a scalable ETL pipeline using Data Factory, Databricks, and Synapse with Medallion Architecture. Automated data ingestion and transformation, ensuring data readiness for creating dashboards in Power BI via Azure Synapse Analytics SQL connector.",
-  //   image: medallionArch,
-  //   tags: ["Python", "Azure Cloud"],
-  //   category: "data analysis",
-  //   github:
-  //     "https://github.com/therealmanraj/Adventure-Works-Data-Engineering-Project",
-  // },
+  {
+    id: 4,
+    title: "Park Occupancy Pipeline",
+    description:
+      "This capstone project, developed in collaboration with the City of Vancouver, earned our team a place on the Dean’s Honour List in Summer 2025 for Langara’s Data Analytics program. It delivers a Park Usage Analytics Dashboard that supports data-driven decision-making for the Vancouver Park Board. Built in Microsoft Fabric with a Power BI front end, the solution integrates diverse datasets—Google Popular Times, observational counts, weather, amenities, events, and holidays—into a unified system for analysis, forecasting, and strategic planning.",
+    image: park,
+    tags: ["Fabric", "Power BI", "Pyspark", "End to End Pipeline"],
+    category: "end to end",
+    github:
+      "https://github.com/javiermerinom/park_occupancy-capstone_project",
+  },
+  {
+    id: 5,
+    title: "Gene Expression Analysis for Breast Cancer Classification",
+    description:
+      "This project earned our team a place on the Dean’s Honour List in Spring 2025 for Langara’s Data Analytics program. It focused on breast cancer classification and survival analysis using RNA-seq data from The Cancer Genome Atlas (TCGA-BRCA), applying a workflow of differential expression analysis (DEA), dimensionality reduction, and machine learning models for tumor vs. normal classification, cancer stage prediction, and patient survival analysis.",
+    image: gene,
+    tags: ["Python", "gene expression", "grid-search", "xgboost-clasifier"],
+    category: "data science",
+    github:
+      "https://github.com/javiermerinom/gene_expression_breast_cancer-classification-analysis",
+  },
   // {
   //   id: 6,
   //   title: "Financial Credit Card Approval EDA and ML Pipeline",
