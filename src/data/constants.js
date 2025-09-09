@@ -380,11 +380,11 @@ export const pictures = [
   },
   {
     id: 2,
-    title: "NLP training session",
+    title: "Master's Graduation",
     type: "image",
-    image: nlp,
+    images: [master1, master2],
     description:
-      "Had the opportunity to participate in a 7-hour training session of a Natural Language Processing (NLP) model for Langara College’s Applied Research Centre. The project focused on developing a system to support new students in childcare by simulating realistic language interactions. As part of the training, I used a VR headset to simulate conversations with children. It was exciting to contribute to a model that can understand and generate human language, enhancing the centre’s research capabilities.",
+       "Supported by a scholarship from the Ecuadorian government, in 2014 I graduated with a Master’s degree in Telecommunications Engineering from the University of Melbourne, Australia, one of the best universities in the world. This achievement marked the culmination of years of dedication and hard work, and it opened doors to new opportunities in my professional journey.",
   },
   {
     id: 4,
@@ -404,12 +404,12 @@ export const pictures = [
     description:
       "In December 2023, I summited Cayambe Mountain, the third-highest peak in Ecuador at 5,790 meters. The climb demanded endurance and resilience, strengthening my grit, teamwork, and adaptability in extreme conditions. It remains a defining moment of personal growth and determination, reinforcing that the hardest paths often lead to the most rewarding outcomes.",
   },
-  {
-     id: 6,
-     title: "Master's Graduation",
-     type: "image",
-     images: [master1, master2],
-     description:
-       "In 2014, I graduated with a Master’s degree in Telecommunications Engineering from the University of Melbourne, supported by a scholarship from the Ecuadorian government. This achievement marked the culmination of years of dedication and hard work, and it opened doors to new opportunities in my professional journey.",
+ {
+    id: 6,
+    title: "NLP training session",
+    type: "image",
+    image: nlp,
+    description:
+      "Had the opportunity to participate in a 7-hour training session of a Natural Language Processing (NLP) model for Langara College’s Applied Research Centre. The project focused on developing a system to support new students in childcare by simulating realistic language interactions. As part of the training, I used a VR headset to simulate conversations with children. It was exciting to contribute to a model that can understand and generate human language, enhancing the centre’s research capabilities.",
   },
 ];
