@@ -23,6 +23,8 @@ import master1 from "../images/PICTURES_masters1.jpg";
 import master2 from "../images/PICTURES_masters2.jpg";
 import park from "../images/PROJECT_park.png";
 import gene from "../images/PROJECT_gene.webp";
+import submarine from "../images/PROJECT_submarine.png";
+import capacity from "../images/PROJECT_t3.png";
 
 export const Bio = {
   name: "Javier Merino",
@@ -289,26 +291,26 @@ export const projects = [
     github:
       "https://github.com/javiermerinom/gene_expression_breast_cancer-classification-analysis",
   },
-  // {
-  //   id: 6,
-  //   title: "Financial Credit Card Approval EDA and ML Pipeline",
-  //   description:
-  //     "Performed EDA on credit card transaction data, identifying fraudulent patterns and anomalies. Developed an ML pipeline for credit approval prediction, with feature selection and model training. Achieved 90% recall, identifying income and relationship status as primary approval decision factors.",
-  //   image: creditCard,
-  //   tags: ["Python", "Data Visualization", "EDA", "ML"],
-  //   category: "data science",
-  //   github: "https://github.com/therealmanraj/Credit-Card-Approval-Prediction",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Competitive Intelligence",
-  //   description:
-  //     "A competitor analysis on Google Play apps to highlight rating drivers and strategic positioning. Found lightweight, paid apps achieve highest ratings; app size and pricing heavily influence success. Health & Fitness apps exceeding 85% positive reviews, while free apps face harsher scrutiny.",
-  //   image: competitveAnalysis,
-  //   tags: ["Python", "Data Visualization", "EDA"],
-  //   category: "data analysis",
-  //   github: "https://github.com/therealmanraj/Google-Play-Store-Apps-Analysis",
-  // },
+  {
+    id: 6,
+    title: "Submarine Cable Global Deployment",
+    description:
+      "Developed an interactive Power BI dashboard to analyze global submarine cable deployments from 1991 to 2021, using data from TeleGeography. The dashboard provides insights into trends in cable length, capacity, and technology over time, with filters for region, status, and technology type. Key findings include a significant increase in total cable length and capacity, driven by advancements in fiber-optic technology and the rise of cloud services. This project was completed as part of my role as a Business Analyst at CNT.",
+    image: submarine,
+    tags: ["PowerBI", "Submarine Cable", "Benchmarking", "KPI Analysis"],
+    category: "data analysis",
+    github: "https://github.com/javiermerinom/submarine_cable_global_deployment-analysis",
+  },
+  {
+    id: 7,
+    title: "International Network Capacity",
+    description:
+      "An interactive dashboard built during my time as a Business Analyst at CNT, Ecuador, designed to evaluate international connection saturation and support data-driven decisions on when to activate or acquire new capacity. It integrates multiple network data tables with custom KPIs—such as usage rate and saturation thresholds—to provide clear visibility into capacity utilization and load balancing opportunities. All data has been anonymized and altered to ensure no sensitive information is disclosed.",
+    image: capacity,
+    tags: ["PowerBI", "Data Visualization", "KPI Analysis"],
+    category: "data analysis",
+    github: "https://github.com/javiermerinom/international_network_capacity_usage-analysis",
+  },
   // {
   //   id: 3,
   //   title:
