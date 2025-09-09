@@ -13,7 +13,6 @@ import apple1 from "../images/PICTURES_apple1.jpeg";
 import apple2 from "../images/PICTURES_apple2.jpeg";
 import dean1 from "../images/PICTURES_dean1.png";
 import dean2 from "../images/PICTURES_dean2.png";
-import nlp from "../images/PICTURES_nlp.jpeg";
 import isdbt from "../images/PICTURES_isdbt.jpeg";
 import cayambe1 from "../images/PICTURES_cayambe1.jpeg";
 import cayambe2 from "../images/PICTURES_cayambe2.jpeg";
@@ -25,6 +24,10 @@ import park from "../images/PROJECT_park.png";
 import gene from "../images/PROJECT_gene.webp";
 import submarine from "../images/PROJECT_submarine.png";
 import capacity from "../images/PROJECT_t3.png";
+import cross from "../images/LOGO_cross.png";
+import dive1 from "../images/PICTURES_diving1.jpeg";
+import dive2 from "../images/PICTURES_diving2.jpeg";
+import streamlit from "../images/LOGO_streamlit.png";
 
 export const Bio = {
   name: "Javier Merino",
@@ -60,6 +63,10 @@ export const skills = [
       {
         name: "Tableau",
         image: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg",
+      },
+      {
+        name: "Streamlit",
+        image: streamlit,
       },
       {
         name: "Microsoft Excel",
@@ -134,8 +141,8 @@ export const skills = [
           "https://cdn-icons-png.freepik.com/256/8553/8553558.png?semt=ais_hybrid",
       },
       {
-        name: "Time Management",
-        image: "https://cdn-icons-png.flaticon.com/512/9815/9815843.png",
+        name: "Cross-Functional Collaboration",
+        image: cross,
       },
     ],
   },
@@ -406,10 +413,10 @@ export const pictures = [
   },
  {
     id: 6,
-    title: "NLP training session",
+    title: "Punta Cana Diving Expedition",
     type: "image",
-    image: nlp,
+    images: [dive1,dive2],
     description:
-      "Had the opportunity to participate in a 7-hour training session of a Natural Language Processing (NLP) model for Langara College’s Applied Research Centre. The project focused on developing a system to support new students in childcare by simulating realistic language interactions. As part of the training, I used a VR headset to simulate conversations with children. It was exciting to contribute to a model that can understand and generate human language, enhancing the centre’s research capabilities.",
+      "In 2010, I dove in the Caribbean at Punta Cana—a test of focus and stamina that proved there are no limits when I set my mind to something.",
   },
 ];
