@@ -337,7 +337,7 @@ export const projects = [
     image: langara,
     tags: ["Python", "Data Wrangling", "Pandas", "Application Development"],
     category: "data engineering",
-    video: "https://drive.google.com/file/d/1hPU6Cb31aKoFvkkFKNTy9XEvczThhSLt/view?usp=sharing",
+    video: "https://drive.google.com/file/d/1d-HtV3ec3Q4SgQyL8mLjrLW8p6TNJ0S1/view?usp=sharing",
   },
   // {
   //   id: 8,
