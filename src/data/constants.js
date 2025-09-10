@@ -28,6 +28,7 @@ import cross from "../images/LOGO_cross.png";
 import dive1 from "../images/PICTURES_diving1.jpeg";
 import dive2 from "../images/PICTURES_diving2.jpeg";
 import streamlit from "../images/LOGO_streamlit.png";
+import langara from "../images/PROJECT_langara.jpg";
 
 export const Bio = {
   name: "Javier Merino",
@@ -236,6 +237,7 @@ export const projects = [
   {
     id: 0,
     title: "Cyber-Attack Detection Analysis",
+    date: "March 2025",
     description:
       "Built a machine learning model to detect cyber-attacks using the BCCC-CIC IDS 2017 dataset with millions of rows and 122 features. Through feature selection and Random Forest, reduced the model to 36 predictors while achieving 99.943% accuracy in classifying benign vs. malicious traffic. This research project was developed as part of the Post-Degree Diploma in Data Analytics at Langara College.",
     image: cybersecurity,
@@ -247,6 +249,7 @@ export const projects = [
   {
     id: 1,
     title: "CO₂ Car Emissions Prediction",
+    date: "December 2024",
     description:
       "Built regression models in R to predict CO₂ emissions using Canada’s Fuel Consumption dataset. Conducted feature evaluation and model selection (engine size, cylinders, fuel type, transmission, gears) with stepwise, forward, backward, and subset methods. The final simplified model achieved high predictive accuracy (Adjusted R² ≈ 0.994), demonstrating that smaller models can still capture key drivers of vehicle emissions. This was a research project developed in the Post-Degree Diploma in Data Analytics at Langara College.",
     image: candianCO2,
@@ -258,6 +261,7 @@ export const projects = [
   {
     id: 2,
     title: "Dry Eye Disease Clustering Analysis",
+    date: "April 2025",
     description:
       "Explored clustering methods in R to identify potential subgroups within individuals diagnosed with or at risk of Dry Eye Disease (DED). Applied k-means, PAM, hierarchical, hybrid HKMeans, and DBSCAN, with validation using Silhouette, Gap Statistic, Rand Index, and VI. Analysis revealed low clustering tendency (Hopkins ≈ 0.49), and no algorithm significantly outperformed random assignment, though certain lifestyle and health factors (alcohol use, blue-light filter use, sleep disorders) were linked to higher DED risk. This was a research project developed as teamwork in the Post-Degree Diploma in Data Analytics at Langara College.",
     image: dryeye,
@@ -269,6 +273,7 @@ export const projects = [
   {
     id: 3,
     title: "Market Strategy and Ad Response Prediction",
+    date: "April 2025",
     description:
       "Analyzed session-level user data from an e-commerce platform to evaluate marketing strategies and build predictive models for ad response. Conducted EDA, visualizations, and classification modeling (Logistic Regression, Random Forest, XGBoost with SMOTE). Random Forest achieved the best balance of accuracy (94%) and AUC (0.86), while Logistic Regression provided the highest recall (75%). Insights showed peak response times (1–4 AM) and that specific ads outperformed others, guiding budget allocation and targeting. This was a research project developed as teamwork in the Post-Degree Diploma in Data Analytics at Langara College.",
     image: granify,
@@ -279,6 +284,7 @@ export const projects = [
   {
     id: 4,
     title: "Park Occupancy Pipeline",
+    date: "August 2025",
     description:
       "This capstone project, developed in collaboration with the City of Vancouver, earned our team a place on the Dean’s Honour List in Summer 2025 for Langara’s Data Analytics program. It delivers a Park Usage Analytics Dashboard that supports data-driven decision-making for the Vancouver Park Board. Built in Microsoft Fabric with a Power BI front end, the solution integrates diverse datasets—Google Popular Times, observational counts, weather, amenities, events, and holidays—into a unified system for analysis, forecasting, and strategic planning.",
     image: park,
@@ -290,6 +296,7 @@ export const projects = [
   {
     id: 5,
     title: "Gene Expression Analysis for Breast Cancer Classification",
+    date: "April 2025",
     description:
       "This project earned our team a place on the Dean’s Honour List in Spring 2025 for Langara’s Data Analytics program. It focused on breast cancer classification and survival analysis using RNA-seq data from The Cancer Genome Atlas (TCGA-BRCA), applying a workflow of differential expression analysis (DEA), dimensionality reduction, and machine learning models for tumor vs. normal classification, cancer stage prediction, and patient survival analysis.",
     image: gene,
@@ -301,6 +308,7 @@ export const projects = [
   {
     id: 6,
     title: "Submarine Cable Global Deployment",
+    date: "April 2018",
     description:
       "Developed an interactive Power BI dashboard to analyze global submarine cable deployments from 1991 to 2021, using data from TeleGeography. The dashboard provides insights into trends in cable length, capacity, and technology over time, with filters for region, status, and technology type. Key findings include a significant increase in total cable length and capacity, driven by advancements in fiber-optic technology and the rise of cloud services. This project was completed as part of my role as a Business Analyst at CNT.",
     image: submarine,
@@ -311,6 +319,7 @@ export const projects = [
   {
     id: 7,
     title: "International Network Capacity",
+    date: "May 2018",
     description:
       "An interactive dashboard built during my time as a Business Analyst at CNT, Ecuador, designed to evaluate international connection saturation and support data-driven decisions on when to activate or acquire new capacity. It integrates multiple network data tables with custom KPIs—such as usage rate and saturation thresholds—to provide clear visibility into capacity utilization and load balancing opportunities. All data has been anonymized and altered to ensure no sensitive information is disclosed.",
     image: capacity,
@@ -318,19 +327,18 @@ export const projects = [
     category: "data analysis",
     github: "https://github.com/javiermerinom/international_network_capacity_usage-analysis",
   },
-  // {
-  //   id: 3,
-  //   title:
-  //     "Building an automated model to predict and detect early onset osteoarthritis.",
-  //   date: "January 2023 - June 2023",
-  //   description:
-  //     "This research targets the need to provide early detection of osteoarthritis to assist the ongoing global effort to make treatment of this disease viable and effective. With regards to the rapid degradation of the condition, it is critical to detect it early enough so that suppressive treatment can reduce symptoms and progression. Using an approach of automation via efficient data analysis, it is possible to detect arthritis quite early in a patient’s diagnostics. This paper aims to provide both a statistical and a more direct approach to the determination of the probability of osteoarthritis at early onset to improve the odds for a patient. The system will take primary variables from a patient's file and look for patterns matching cases in the dataset it was trained against. The dataset for the same has been taken from the NIH archive for academic purposes.",
-  //   image: arthResearchPaper,
-  //   tags: ["Python", "Machine Learning", "Pandas", "SciKit Learn"],
-  //   category: "research paper",
-  //   github: "https://github.com/therealmanraj/arthDetector",
-  //   paper: "https://ieeexplore.ieee.org/document/10262572",
-  // },
+  {
+    id: 8,
+    title:
+      "Automate data extraction at LANGARA ARC",
+    date: "March 2025",
+    description:
+      "Developed an application in Python that transforms data templates delivered by a proprietary software into one refined template for simplified analysis reducing processing times. This application is currently in use at Langara, and any disclusiore of specific details of the code is restricted. See video for a demo.",
+    image: langara,
+    tags: ["Python", "Data Wrangling", "Pandas", "Application Development"],
+    category: "data engineering",
+    video: "https://drive.google.com/file/d/1hPU6Cb31aKoFvkkFKNTy9XEvczThhSLt/view?usp=sharing",
+  },
   // {
   //   id: 8,
   //   title: "Finanseer",
