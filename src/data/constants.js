@@ -333,7 +333,7 @@ export const projects = [
       "Automate data extraction at LANGARA ARC",
     date: "March 2025",
     description:
-      "Developed an application in Python that transforms data templates delivered by a proprietary software into one refined template for simplified analysis reducing processing times. This application is currently in use at Langara, and any disclusiore of specific details of the code is restricted. See video for a demo.",
+      "Developed a Python application that consolidates data templates from proprietary software into a single refined format, streamlining analysis and significantly reducing processing time. The application is currently in use at Langara; specific code details are confidential. See video for demo.",
     image: langara,
     tags: ["Python", "Data Wrangling", "Pandas", "Application Development"],
     category: "data engineering",
