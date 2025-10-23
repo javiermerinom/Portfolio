@@ -206,7 +206,7 @@ export const experiences = [
     role: "Senior Data Analyst and BI Specialist",
     company: "ARCOTEL, Telecomunications Regulatory Authority - Quito, Ecuador",
     date: "August 2016 - February 2018",
-    desc: "Drove analytics and BI projects enabling data-driven regulation and strategic decisions across Ecuador's telecom industry through advanced modeling and KPI frameworks.",
+    desc: "Drove analytics and business intelligence projects in the Market and Statistics Division, enabling data-driven regulation and strategic decision-making across Ecuador’s telecom industry.",
     skills: [
       "Data Analysis", 
       "Excel",
@@ -222,7 +222,7 @@ export const experiences = [
     role: "Data Analyst and Team Lead",
     company: "ARCOTEL, Telecomunications Regulatory Authority - Quito, Ecuador",
     date: "October 2014 - July 2016",
-    desc: "Spearheaded the Agency’s business intelligence initiative and was later promoted to team lead, overseeing operations and analytics during the final four months of the role.",
+    desc: "Spearheaded the Telecom Services Division’s business intelligence initiative and earned a promotion to team lead, overseeing operations and analytics in the final four months of the position.",
     skills: [
       "Statistical Data Analysis", 
       "Team Leadership",
